@@ -1,0 +1,18 @@
+REQUEST:
+    
+    http://127.0.0.1:5000/app/sites/?user=1
+
+    body = 
+        {   
+    
+            "website":"123.com",
+            "username":"chaitu", 
+            "password":"chaitu"
+
+        }
+
+    RESPONSE:
+
+    {
+       "status": "success"
+    }    

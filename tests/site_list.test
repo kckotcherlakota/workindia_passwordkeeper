@@ -1,0 +1,15 @@
+REQUEST:
+
+      http://127.0.0.1:5000/app/sites/list/?user=1
+
+      RESPONSE:
+
+      [
+        {
+            "id": 1,
+            "user_id": 1,
+            "website": "123.com",
+            "username": "chaitu",
+            "password": "chaitu"
+        }
+      ]

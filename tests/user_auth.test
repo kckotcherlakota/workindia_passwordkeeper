@@ -1,0 +1,35 @@
+REQUEST 1
+
+    http://127.0.0.1:5000/app/user/auth
+    
+    body = {
+        "username":"chaitanya", 
+        "password":"password"
+
+    }
+
+    RESPONSE
+
+    {
+    "status": "success",
+    "userId": 1
+    }
+
+REQUEST 2
+    
+     http://127.0.0.1:5000/app/user/auth
+    
+    body = {
+        "username":"chaitanyaaa", 
+        "password":"chaitanya"
+
+    }
+
+    RESPONSE
+    
+    {
+    "status": "failed",
+    "msg": "Incorrect Email or Password"
+    }
+
+    

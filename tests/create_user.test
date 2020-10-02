@@ -1,0 +1,30 @@
+REQUEST 1
+
+    request = "http://127.0.0.1:5000/app/user"
+    body    = {
+      "username":"chaitanya",
+      "password":"password"
+    }
+
+    RESPONSE:
+
+    {
+        "status": "account created"
+    }
+
+REQUEST 2
+    
+    request = "http://127.0.0.1:5000/app/user"
+    body    = {
+      "username":"chaitanya",
+      "password":"password"
+    }
+
+    RESPONSE:
+
+   {
+    "status": "failed",
+    "msg": "User already exists"
+   }
+
+    
